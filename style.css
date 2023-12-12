@@ -1,0 +1,161 @@
+body {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/the-boys-background.jpg");
+    background-size: cover;
+    background-position: right;
+  }
+  
+  .carreira-div {
+    height: 400px;
+    width: 400px;
+    background-color: transparent;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .the-boys-logo {
+    height: 80px;
+    margin-top: 20px;
+    /* margin-left: 100px; */
+  }
+  
+  .p {
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .compound-v {
+    height: 130px;
+    /* margin-left: 140; */
+    margin-top: 20px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .clique {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+  }
+  
+  .power {
+    height: 200px;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 40%;
+    transform: scale(0);
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    margin-top: 60px;
+    color: white;
+  }
+  
+  .msg {
+    position: absolute;
+    left: 2%;
+    bottom: 1%;
+    color: white;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .carreira-div {
+      height: 250px;
+      width: 250px;
+    }
+
+    .the-boys-logo {
+      height: 60px;
+      margin-top: 20px;
+    }
+
+    .p {
+      font-size: 1rem;
+    }
+
+    .compound-v {
+      height: 75px;
+      margin-top: 10px;
+    }
+
+    .clique {
+      font-size: 1rem;
+      margin-top: 3px;
+    }
+
+    .msg {
+      font-size: 0.8rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+    }
+
+    h1 {
+      font-size: 1.3rem;
+      margin-top: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 240px) {
+    .carreira-div {
+      height: 150px;
+      width: 150px;
+    }
+
+    .the-boys-logo {
+      height: 25px;
+      margin-top: 8px;
+    }
+
+    .p {
+      font-size: 0.6rem;
+    }
+
+    .compound-v {
+      height: 40px;
+      margin-top: 8px;
+    }
+
+    .clique {
+      font-size: 0.6rem;
+      margin-top: 18px;
+    }
+
+    .msg {
+      font-size: 0.5rem;
+    }
+
+    h2 {
+      font-size: 0.8rem;
+    }
+
+    h1 {
+      font-size: 0.9rem;
+      margin-top: 10px;
+    }
+  }
